@@ -1,0 +1,16 @@
+#header {
+  height: 100px;
+}
+
+.box {
+  width: auto;
+  padding: 5px;
+  border: 2px dashed black;
+  text-align: center;
+
+  background-color: green;
+}
+
+.bordered {
+  border: 2px dashed red;
+}
