@@ -46,32 +46,39 @@
   color: #1abc9c;
 }
 
-/*MAIN SECTIONS*/
+/* # MAIN SECTIONS # */
+
+/* SECTION 1 */
 .first-section {
   background-color: #1abc9c;
   color: white;
 }
 
+/* SECTION 2 */
 .second-section {
   background-color: #ffae52;
   color: rgb(0, 0, 0);
 }
 
+/* SECTION 3 */
 .third-section {
   background-color: #1abc9c;
   color: rgb(255, 255, 255);
 }
 
+/* SECTION 4 */
 .fourth-section {
   background-color: #ffffff;
   color: rgb(255, 255, 255);
 }
 
+/* SECTION 5 */
 .fifth-section {
   background-color: #3a546d;
   color: rgb(255, 255, 255);
 }
 
+/* # FOOTER # */
 #footer {
   height: 65px;
   background-color: #2c3e50;
