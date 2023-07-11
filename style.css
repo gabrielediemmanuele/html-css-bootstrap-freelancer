@@ -154,6 +154,10 @@
 /* SECTION 4 - FORM CUSTOM. */
 .row .box input {
   border-bottom: 1px solid grey;
+  width: 100%;
+}
+.row .box textarea {
+  width: 100%;
 }
 
 .row .box button {
