@@ -131,6 +131,7 @@
 
 .row .box p {
   font-size: 12px;
+  text-align: left;
 }
 .row .box .download-button {
   border: 2px solid white;
