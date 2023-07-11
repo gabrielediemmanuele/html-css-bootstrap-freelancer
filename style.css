@@ -54,6 +54,15 @@
   color: white;
 }
 
+.first-section .container .box > img {
+  width: 100px;
+}
+
+.first-section .container .box > h2 {
+  margin: 0;
+  font-weight: bold;
+}
+
 /* SECTION 2 */
 .second-section {
   background-color: #ffae52;
