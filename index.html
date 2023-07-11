@@ -149,18 +149,51 @@
           </div>
         </div>
       </section>
+
       <!-- SECTION 4 - CONTACT ME -->
       <section class="fourth-section">
-        <div class="container pt-3 pb-3">
+        <form action="url" method="post" class="container pt-3 pb-3">
           <div class="row justify-content-between gx-1 gy-3">
-            <div class="col-12 box">CONTACT ME</div>
-            <div class="col-12 box">name</div>
-            <div class="col-12 box">email address</div>
-            <div class="col-12 box">phone number</div>
-            <div class="col-12 box">message</div>
-            <div class="col-12 box">send</div>
+            <div class="col-12 box">
+              <h4>CONTACT ME</h4>
+            </div>
+            <div id="star-container-blue" class="col-12 box">
+              <div class="star-bar"></div>
+              <div>
+                <i class="fa-solid fa-star fa-lg"></i>
+              </div>
+              <div class="star-bar"></div>
+            </div>
+
+            <!--Form Structure-->
+            <!-- NAME -->
+            <div class="col-12 box">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="fname" />
+            </div>
+
+            <!-- E-MAIL -->
+            <div class="col-12 box">
+              <input type="email" />
+            </div>
+
+            <!-- PHONE NUMBER -->
+            <div class="col-12 box">
+              <label for="phone-number">Phone Number</label>
+              <input type="text" id="phone-number" name="phone-number" />
+            </div>
+
+            <!-- TEXT AREA -->
+            <div class="col-12 box">
+              <textarea name="" id="" cols="30" rows="2"> </textarea>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="col-12 box d-flex">
+              <button>Send</button>
+            </div>
           </div>
-        </div>
+        </form>
       </section>
       <!-- SECTION 5 - INFO-->
       <section class="fifth-section">

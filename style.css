@@ -151,6 +151,11 @@
   color: rgb(255, 255, 255);
 }
 
+/* SECTION 4 - FORM CUSTOM. */
+.row .box input {
+  border-bottom: 1px solid grey;
+}
+
 /* SECTION 5 */
 .fifth-section {
   background-color: #3a546d;
