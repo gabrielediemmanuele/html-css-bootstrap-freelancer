@@ -153,6 +153,7 @@
 
 /* SECTION 4 - FORM CUSTOM. */
 .row .box input {
+  border-style: none;
   border-bottom: 1px solid grey;
   width: 100%;
 }
@@ -166,6 +167,11 @@
   padding: 5px 10px;
   color: white;
   border-radius: 5px;
+}
+
+.row .box label {
+  color: #2c3e50;
+  font-weight: 500;
 }
 
 /* SECTION 5 */
