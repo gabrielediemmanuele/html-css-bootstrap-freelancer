@@ -118,10 +118,31 @@
   transition: transform 0.5s;
   transform: scale(1.1);
 }
+
 /* SECTION 3 */
 .third-section {
   background-color: #1abc9c;
   color: rgb(255, 255, 255);
+}
+
+.row .box .h4-white {
+  color: white;
+}
+
+.row .box p {
+  font-size: 12px;
+}
+.row .box .download-button {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.row .box .download-button:hover {
+  background-color: white;
+  color: #1abc9c;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.5s;
 }
 
 /* SECTION 4 */
