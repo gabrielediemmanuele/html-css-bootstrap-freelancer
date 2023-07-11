@@ -63,6 +63,23 @@
   font-weight: bold;
 }
 
+#star-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#star-container .star-bar {
+  width: 25%;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+#star-container .fa-star {
+  margin: 0 20px;
+}
+
 /* SECTION 2 */
 .second-section {
   background-color: #ffae52;
