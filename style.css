@@ -82,8 +82,7 @@
 
 /* SECTION 2 */
 .second-section {
-  background-color: #ffae52;
-  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 
 .box > h4 {
@@ -110,6 +109,15 @@
   color: #2c3e50;
 }
 
+.container .row .box > img {
+  width: 95%;
+  border-radius: 5px;
+}
+
+.container .row .box > img:hover {
+  transition: transform 0.5s;
+  transform: scale(1.1);
+}
 /* SECTION 3 */
 .third-section {
   background-color: #1abc9c;
