@@ -19,10 +19,22 @@
   padding: 0;
 }
 
+#header > .container .box h3:hover {
+  color: #1abc9c;
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform: scale(1.1);
+}
+
 #header > .container #hamburger {
   border: 1.5px solid grey;
   padding: 10px;
   border-radius: 10%;
+  cursor: pointer;
+}
+
+#header > .container #hamburger:hover {
+  border: 1.5px solid #1abc9c;
 }
 
 #nav-list {
@@ -56,6 +68,10 @@
 
 .first-section .container .box > img {
   width: 100px;
+}
+.first-section .container .box > img:hover {
+  transition: transform 0.5s;
+  transform: scale(1.2);
 }
 
 .first-section .container .box > h2 {
@@ -144,6 +160,7 @@
   border-radius: 5px;
   padding: 5px;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 /* SECTION 4 */
@@ -173,6 +190,10 @@
   border-radius: 5px;
 }
 
+.row .box button:hover {
+  background-color: #2c3e50;
+}
+
 .row .box label {
   color: #2c3e50;
   font-weight: 500;
@@ -190,6 +211,12 @@
   border: 1px solid white;
   padding: 5px;
   border-radius: 50%;
+}
+
+.fifth-section .container .row .box .fa-brands:hover {
+  color: #1abc9c;
+  border: 1px solid #1abc9c;
+  cursor: pointer;
 }
 
 #fifthsec-link {
