@@ -70,20 +70,44 @@
 }
 
 #star-container .star-bar {
-  width: 25%;
-  height: 3px;
+  width: 10%;
+  height: 2px;
   background-color: white;
   border-radius: 2px;
 }
 
 #star-container .fa-star {
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 /* SECTION 2 */
 .second-section {
   background-color: #ffae52;
   color: rgb(0, 0, 0);
+}
+
+.box > h4 {
+  color: #2c3e50;
+  margin: 0;
+  font-weight: bold;
+}
+
+#star-container-blue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#star-container-blue .star-bar {
+  width: 10%;
+  height: 2px;
+  background-color: #2c3e50;
+  border-radius: 2px;
+}
+
+#star-container-blue .fa-star {
+  margin: 0 10px;
+  color: #2c3e50;
 }
 
 /* SECTION 3 */
