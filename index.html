@@ -152,7 +152,11 @@
 
       <!-- SECTION 4 - CONTACT ME -->
       <section class="fourth-section">
-        <form action="url" method="post" class="container pt-3 pb-3">
+        <form
+          action="http://learning.tizianonicolai.com/request-catcher/"
+          method="post"
+          class="container pt-3 pb-3"
+        >
           <div class="row justify-content-between gx-1 gy-3">
             <div class="col-12 box">
               <h4>CONTACT ME</h4>
@@ -167,19 +171,26 @@
 
             <!--Form Structure-->
             <!-- NAME -->
-            <div class="col-12 box">
-              <label for="fname">Name</label>
-              <input type="text" id="fname" name="fname" />
+            <div class="col-12 box d-flex flex-column align-items-start">
+              <div>
+                <label for="fname">Name</label>
+              </div>
+              <input type="text" id="fname" name="fname" width="50px" />
             </div>
 
             <!-- E-MAIL -->
             <div class="col-12 box">
-              <input type="email" />
+              <div>
+                <label for="email">Email</label>
+              </div>
+              <input type="email" id="email" name="email" />
             </div>
 
             <!-- PHONE NUMBER -->
             <div class="col-12 box">
-              <label for="phone-number">Phone Number</label>
+              <div>
+                <label for="phone-number">Phone Number</label>
+              </div>
               <input type="text" id="phone-number" name="phone-number" />
             </div>
 

@@ -156,6 +156,14 @@
   border-bottom: 1px solid grey;
 }
 
+.row .box button {
+  background-color: #1abc9c;
+  border-style: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
 /* SECTION 5 */
 .fifth-section {
   background-color: #3a546d;
